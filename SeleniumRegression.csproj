@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8986D5BD-287C-432E-9BD0-FE2D4AE1DCDC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SeleniumRegression</RootNamespace>
+    <AssemblyName>SeleniumRegression</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Castle.Core, Version=3.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Selenium\selenium-dotnet-2.22.0\net40\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Selenium\selenium-dotnet-2.22.0\net40\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Selenium\selenium-dotnet-2.22.0\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="nmock">
+      <HintPath>..\..\..\..\Selenium\seleniumdll\DotNet_Driver\nmock.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.core">
+      <HintPath>..\..\..\..\Selenium\seleniumdll\DotNet_Driver\nunit.core.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=2.6.0.12051, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Selenium\seleniumdll\DotNet_Driver\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Selenium.WebDriverBackedSelenium, Version=2.22.0.0, Culture=neutral, PublicKeyToken=1c2bd1631853048f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Selenium\selenium-dotnet-2.22.0\net40\Selenium.WebDriverBackedSelenium.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ThoughtWorks.Selenium.Core, Version=2.22.0.0, Culture=neutral, PublicKeyToken=1c2bd1631853048f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Selenium\selenium-dotnet-2.22.0\net40\ThoughtWorks.Selenium.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="ThoughtWorks.Selenium.IntegrationTests">
+      <HintPath>..\..\..\..\Selenium\seleniumdll\DotNet_Driver\ThoughtWorks.Selenium.IntegrationTests.dll</HintPath>
+    </Reference>
+    <Reference Include="ThoughtWorks.Selenium.UnitTests">
+      <HintPath>..\..\..\..\Selenium\seleniumdll\DotNet_Driver\ThoughtWorks.Selenium.UnitTests.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver, Version=2.22.0.0, Culture=neutral, PublicKeyToken=1c2bd1631853048f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Selenium\selenium-dotnet-2.22.0\net40\WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver.Support, Version=2.22.0.0, Culture=neutral, PublicKeyToken=1c2bd1631853048f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Selenium\selenium-dotnet-2.22.0\net40\WebDriver.Support.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConnectSignIn.cs" />
+    <Compile Include="GarminConnect\Tests\Dashboard\Connect_Dashboard_ActivityType.cs" />
+    <Compile Include="GarminConnect\Tests\Dashboard\Connect_Dashboard_ActivityNameTabs.cs" />
+    <Compile Include="GarminConnect\Tests\Manual Activity\Connect_ManualActivity_PaceCalc.cs" />
+    <Compile Include="GarminConnect\Tests\Manual Activity\Connect_ManualActivity_ActivityType.cs" />
+    <Compile Include="GarminConnect\Tests\Manual Activity\Connect_ManualActivity_DescriptionLimit.cs" />
+    <Compile Include="GarminConnect\Tests\Manual Activity\Connect_ManualActivity_NoName.cs" />
+    <Compile Include="GarminConnect\Tests\Manual Activity\Connect_ManualActivity_NameCharLimit.cs" />
+    <Compile Include="GarminConnect\Tests\Dashboard\Connect_Dashboard_EditName.cs" />
+    <Compile Include="GarminConnect\Tests\Dashboard\Connect_Dashboard_FiveItems.cs" />
+    <Compile Include="GarminConnect\Tests\Dashboard\Connect_Dashboard_NoUploads.cs" />
+    <Compile Include="GarminConnect\Tests\Dashboard\Connect_Dashboard_NoGoal.cs" />
+    <Compile Include="GarminConnect\Tests\Dashboard\Connect_Dashboard_PercentComplete.cs" />
+    <Compile Include="GarminConnect\Tests\Dashboard\Connect_Dashboard_CreateGoal.cs" />
+    <Compile Include="GarminConnect\Tests\Check Firmware\Connect_CheckFirmware_FR610.cs" />
+    <Compile Include="GarminConnect\Tests\Check Firmware\Connect_CheckFirmware_FR910.cs" />
+    <Compile Include="GarminConnect\Tests\Check Firmware\Connect_CheckFirmware_FR110.cs" />
+    <Compile Include="GarminConnect\Tests\Check Firmware\Connect_CheckFirmware_Edge500.cs" />
+    <Compile Include="GarminConnect\Tests\Check Firmware\Connect_CheckFirmware_FR210.cs" />
+    <Compile Include="GarminConnect\Tests\Check Firmware\Connect_CheckFirmware_FR201.cs" />
+    <Compile Include="GarminConnect\Tests\Check Firmware\Connect_CheckFirmware_Edge305.cs" />
+    <Compile Include="GarminConnect\Tests\Check Firmware\Connect_CheckFirmware_FR405CX.cs" />
+    <Compile Include="GarminConnect\Tests\Check Firmware\Connect_CheckFirmware_FR60.cs" />
+    <Compile Include="GarminConnect\Tests\Check Firmware\Connect_CheckFirmware_Edge605.cs" />
+    <Compile Include="GarminConnect\Tests\Check Firmware\Connect_CheckFirmware_Edge705.cs" />
+    <Compile Include="GarminConnect\Tests\Check Firmware\Connect_CheckFirmware_Edge800.cs" />
+    <Compile Include="OEM\Tests\Scan\Kenwood_Model.cs" />
+    <Compile Include="OEM\Tests\Dashboard\Kenwood_OrderSummary_check.cs" />
+    <Compile Include="OEM\Tests\NoScan\Kenwood_NoScanSD_CheckDeliveryOptions_Validation.cs" />
+    <Compile Include="OEM\Tests\Scan\Kenwood_ScanSD_CheckBillingAddress_Validation.cs" />
+    <Compile Include="OEM\Tests\Scan\Kenwood_ScanSD_PaymentInformation_Validation.cs" />
+    <Compile Include="OEM\Tests\Scan\Kenwood_ScanSD_WL_PaymentInfo_check.cs" />
+    <Compile Include="OEM\Tests\NoScan\Kenwood_NoScanSD_CheckShippingAddress_Validation.cs" />
+    <Compile Include="OEM\Tests\Scan\Kenwood_ScanSD_CheckShippingAddress_UpdateDetails_BackCart.cs" />
+    <Compile Include="OEM\Tests\Scan\Kenwood_ScanSD_CheckShoppingCart_ForALatestMap_UserNotLogged_ShippingValidation.cs" />
+    <Compile Include="OEM\Tests\Scan\Kenwood_ScanSD_CheckShoppingCart_ForALatestMap_ContinueShopping.cs" />
+    <Compile Include="OEM\Tests\Scan\Kenwood_ScanSD_CheckShoppingCart_ForALatestMap_TryToUpdate.cs" />
+    <Compile Include="OEM\Tests\NoScan\Kenwood_NoScanSD_CheckShoppingCart_ForATrafficServcie_ContinueShopping.cs" />
+    <Compile Include="OEM\Tests\NoScan\Kenwood_NoScanSD_CheckShoppingCart_ForATrafficServcie_ShippingValidation.cs" />
+    <Compile Include="OEM\Tests\NoScan\Kenwood_NoScanSD_CheckShoppingCart_ForATrafficServcie_TryToUpdate.cs" />
+    <Compile Include="OEM\Tests\NoScan\Kenwood_NoScanSD_CheckAddToCart_TrafficService_CancelPressed.cs" />
+    <Compile Include="OEM\Tests\NoScan\Kenwood_NoScanSD_CheckAddToCart_TrafficService_UserNotLogged_Validation.cs" />
+    <Compile Include="OEM\Tests\Scan\Kenwood_ScanSD_CheckLatestMap_DeviceRequieresUpdates_DNX7180_Validation.cs" />
+    <Compile Include="OEM\Tests\Scan\Kenwood_ScanSD_CheckLatestMap_DeviceRequieresUpdates_DNX9980_ValidationTest.cs" />
+    <Compile Include="OEM\Tests\Scan\Kenwood_ScanSD_CheckAddToCart_TrafficService_DeviceHasOnlyTrafficReceiveId.cs" />
+    <Compile Include="OEM\Tests\Scan\Kenwood_ScanSD_CheckAddToCart_TrafficService_DeviceAlreadyRegisteredToAnotherUser.cs" />
+    <Compile Include="OEM\Tests\Dashboard\Kenwood_CheckEach_Other_DeviceType_fortheProductUpdates.cs" />
+    <Compile Include="OEM\Tests\NoScan\Kenwood_NoScanSD_CheckAddToCart_TrafficService_ExternalTrafficRec_CancelPressed.cs" />
+    <Compile Include="OEM\Tests\Dashboard\Kenwood_CheckEach_EU_DeviceType_fortheProductUpdates.cs" />
+    <Compile Include="OEM\Tests\Dashboard\Kenwood_CheckEach_NA_DeviceType_fortheProductUpdates.cs" />
+    <Compile Include="OEM\Tests\NoScan\Kenwood_NoScanSD_OtherRegion_CheckLatestMapForKenwood.cs" />
+    <Compile Include="OEM\Tests\NoScan\Kenwood_NoScanSD_OtherRegion_CheckTheSoftwareUpdates.cs" />
+    <Compile Include="OEM\Tests\NoScan\Kenwood_NoScanSD_CheckLatestMapForKenwood.cs" />
+    <Compile Include="OEM\Tests\NoScan\Kenwood_NoScanSD_CheckTheSoftwareUpdates.cs" />
+    <Compile Include="OEM\Tests\NoScan\Kenwood_NoScanSD_CheckTrafficServices.cs" />
+    <Compile Include="OEM\Tests\Scan\Kenwood_ScanSD_CheckLatestMapForKenwood.cs" />
+    <Compile Include="OEM\Tests\Scan\Kenwood_ScanSD_CheckTrafficServicesForKenwood.cs" />
+    <Compile Include="OEM\Tests\Scan\Kenwood_ScanSD_CheckRealTrafficSubscription.cs" />
+    <Compile Include="OEM\Tests\Scan\Kenwood_ScanSD_CheckTheSoftwareUpdates_FirmwareValidation.cs" />
+    <Compile Include="OEM\Tests\Scan\Kenwood_ScanSD_CheckMediaScanValidation.cs" />
+    <Compile Include="OEM\Tests\Account\Kenwood_ActivateYourMap_GetUnlockCode.cs" />
+    <Compile Include="OEM\Tests\Account\Kenwood_ActivateYourMap_Validation.cs" />
+    <Compile Include="OEM\Tests\Account\Kenwood_MyAccount_TrafficSubscriptions_ActivateSubscriptionTest.cs" />
+    <Compile Include="OEM\Tests\Account\Kenwood_MyAccount_OrderHistoryTest.cs" />
+    <Compile Include="OEM\Tests\Account\Kenwood_MyAccount_TrafficSubscriptions_UnlockCodesTest.cs" />
+    <Compile Include="OEM\Tests\Account\Kenwood_MyAccount_ValidationTest.cs" />
+    <Compile Include="OEM\Tests\ForgotUsername\Kenwood_ForgotUsername_ValidationTest.cs" />
+    <Compile Include="OEM\Tests\CreateAccount\Kenwood_CreateAccount_ValidationTest.cs" />
+    <Compile Include="OEM\Tests\CreateAccount\Kenwood_CreateAccount_NewUserTest.cs" />
+    <Compile Include="OEM\Tests\SignIn\Kenwood_SignOut_ValidationTest.cs" />
+    <Compile Include="OEM\Tests\SignIn\Kenwood_SignInIndicationTest.cs" />
+    <Compile Include="OEM\KenwoodFunctions.cs" />
+    <Compile Include="OEM\Tests\SignIn\Kenwood_SingInTest.cs" />
+    <Compile Include="OEM\AutoOEM.cs" />
+    <Compile Include="BuyGarmin\Tests\Buy_PurchaseTest.cs" />
+    <Compile Include="GarminConnect\Tests\ActivityDetail\Connect_ActivityDetail_Validation.cs" />
+    <Compile Include="GarminConnect\Tests\Activities\Connect_ActivitiesSort.cs" />
+    <Compile Include="GarminConnect\Tests\Upload\Connect_UploadFile.cs" />
+    <Compile Include="GarminConnect\Tests\Navigation\Connect_Navigation_Unauthenticated.cs" />
+    <Compile Include="GarminConnect\Tests\SignIn\Connect_SignInValidation.cs" />
+    <Compile Include="GarminConnect\ConnectUtility.cs" />
+    <Compile Include="GarminConnect\Tests\Settings\Connect_MeasurementSettings.cs" />
+    <Compile Include="ElasticPath\ElasticPath.cs" />
+    <Compile Include="ElasticPath\Test\BrowserStateTest.cs" />
+    <Compile Include="ElasticPath\Page\ManageAccountPage.cs" />
+    <Compile Include="ElasticPath\Page\HomePage.cs" />
+    <Compile Include="ElasticPath\Page\Header.cs" />
+    <Compile Include="ElasticPath\Page\Footer.cs" />
+    <Compile Include="ElasticPath\Page\DeliveryOptionsPage.cs" />
+    <Compile Include="ElasticPath\Page\CreateAddressPage.cs" />
+    <Compile Include="ElasticPath\Page\CreateAccountPage.cs" />
+    <Compile Include="ElasticPath\Page\CategoryPage.cs" />
+    <Compile Include="ElasticPath\Page\Address.cs" />
+    <Compile Include="ElasticPath\Page\Customer.cs" />
+    <Compile Include="ElasticPath\Page\CartPage.cs" />
+    <Compile Include="ElasticPath\Page\BillingAndReviewPage.cs" />
+    <Compile Include="ElasticPath\Page\BillingAddressPage.cs" />
+    <Compile Include="BuyGarmin\BuyGarmin.cs" />
+    <Compile Include="GarminConnect\Tests\Navigation\Connect_GeneralNavigation.cs" />
+    <Compile Include="GarminConnect\Tests\SignIn\Connect_SignIn.cs" />
+    <Compile Include="GarminConnect\GarminConnect.cs" />
+    <Compile Include="ElasticPath\Test\LocaleTest.cs" />
+    <Compile Include="OEM\Tests\Navigation\Kenwood_Navigation.cs" />
+    <Compile Include="MyGarmin\MyGarmin.cs" />
+    <Compile Include="MyGarmin\Tests\MyGarmin_SignIn.cs" />
+    <Compile Include="ElasticPath\Page\Page.cs" />
+    <Compile Include="GUIandMisc\ParentTest.cs" />
+    <Compile Include="ElasticPath\Page\ProductListPage.cs" />
+    <Compile Include="ElasticPath\Page\ProductPage.cs" />
+    <Compile Include="ElasticPath\Page\ReceiptPage.cs" />
+    <Compile Include="ElasticPath\Test\PurchaseTest.cs" />
+    <Compile Include="ElasticPath\Test\RegisterUserTest.cs" />
+    <Compile Include="GUIandMisc\RegressionGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUIandMisc\RegressionGUI.Designer.cs">
+      <DependentUpon>RegressionGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUIandMisc\Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ElasticPath\Page\SeleniumProperties.cs" />
+    <Compile Include="ElasticPath\Page\SeleniumPropertyManager.cs" />
+    <Compile Include="ElasticPath\Page\ShippingAddressPage.cs" />
+    <Compile Include="ElasticPath\Page\SignInPage.cs" />
+    <Compile Include="ElasticPath\Test\SingleSignOnLocaleTest.cs" />
+    <Compile Include="ElasticPath\Test\SingleSignOnTest.cs" />
+    <Compile Include="GUIandMisc\TestRunner.cs" />
+    <Compile Include="GUIandMisc\QualityCheck.cs" />
+    <Compile Include="OEM\Update_XML.cs" />
+    <EmbeddedResource Include="GUIandMisc\RegressionGUI.resx">
+      <DependentUpon>RegressionGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="GUIandMisc\app.config" />
+    <None Include="GUIandMisc\packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="GarminConnect\Tests\Goals\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SeleniumTemplate.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

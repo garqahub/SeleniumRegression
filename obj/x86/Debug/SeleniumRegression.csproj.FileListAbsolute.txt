@@ -1,0 +1,54 @@
+C:\Users\schultzm\documents\visual studio 2010\Projects\SeleniumRegression\SeleniumRegression\bin\Debug\SeleniumRegression.exe
+C:\Users\schultzm\documents\visual studio 2010\Projects\SeleniumRegression\SeleniumRegression\bin\Debug\SeleniumRegression.pdb
+C:\Users\schultzm\documents\visual studio 2010\Projects\SeleniumRegression\SeleniumRegression\bin\Debug\nmock.dll
+C:\Users\schultzm\documents\visual studio 2010\Projects\SeleniumRegression\SeleniumRegression\bin\Debug\nunit.core.dll
+C:\Users\schultzm\documents\visual studio 2010\Projects\SeleniumRegression\SeleniumRegression\bin\Debug\nunit.framework.dll
+C:\Users\schultzm\documents\visual studio 2010\Projects\SeleniumRegression\SeleniumRegression\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\schultzm\documents\visual studio 2010\Projects\SeleniumRegression\SeleniumRegression\obj\x86\Debug\SeleniumRegression.RegressionGUI.resources
+C:\Users\schultzm\documents\visual studio 2010\Projects\SeleniumRegression\SeleniumRegression\obj\x86\Debug\SeleniumRegression.Properties.Resources.resources
+C:\Users\schultzm\documents\visual studio 2010\Projects\SeleniumRegression\SeleniumRegression\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\schultzm\documents\visual studio 2010\Projects\SeleniumRegression\SeleniumRegression\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\schultzm\documents\visual studio 2010\Projects\SeleniumRegression\SeleniumRegression\obj\x86\Debug\SeleniumRegression.exe
+C:\Users\schultzm\documents\visual studio 2010\Projects\SeleniumRegression\SeleniumRegression\obj\x86\Debug\SeleniumRegression.pdb
+C:\Users\schultzm\documents\visual studio 2010\Projects\SeleniumRegression\SeleniumRegression\bin\Debug\Castle.Core.dll
+C:\Users\schultzm\documents\visual studio 2010\Projects\SeleniumRegression\SeleniumRegression\bin\Debug\Ionic.Zip.dll
+C:\Users\schultzm\documents\visual studio 2010\Projects\SeleniumRegression\SeleniumRegression\bin\Debug\Newtonsoft.Json.dll
+C:\Users\schultzm\documents\visual studio 2010\Projects\SeleniumRegression\SeleniumRegression\bin\Debug\WebDriver.dll
+C:\Users\schultzm\documents\visual studio 2010\Projects\SeleniumRegression\SeleniumRegression\bin\Debug\WebDriver.Support.dll
+C:\Users\schultzm\documents\visual studio 2010\Projects\SeleniumRegression\SeleniumRegression\bin\Debug\WebDriver.xml
+C:\Users\schultzm\documents\visual studio 2010\Projects\SeleniumRegression\SeleniumRegression\bin\Debug\WebDriver.Support.pdb
+C:\Users\schultzm\documents\visual studio 2010\Projects\SeleniumRegression\SeleniumRegression\bin\Debug\WebDriver.Support.xml
+C:\Users\schultzm\Documents\Visual Studio 2010\Projects\SeleniumRegression\SeleniumRegression\bin\Debug\SeleniumRegression.exe.config
+C:\Users\schultzm\Documents\Visual Studio 2010\Projects\SeleniumRegression\SeleniumRegression\bin\Debug\Selenium.WebDriverBackedSelenium.dll
+C:\Users\schultzm\Documents\Visual Studio 2010\Projects\SeleniumRegression\SeleniumRegression\bin\Debug\ThoughtWorks.Selenium.Core.dll
+C:\Users\schultzm\Documents\Visual Studio 2010\Projects\SeleniumRegression\SeleniumRegression\bin\Debug\Selenium.WebDriverBackedSelenium.xml
+C:\Users\schultzm\Documents\Visual Studio 2010\Projects\SeleniumRegression\SeleniumRegression\bin\Debug\ThoughtWorks.Selenium.Core.pdb
+C:\Users\schultzm\Documents\Visual Studio 2010\Projects\SeleniumRegression\SeleniumRegression\bin\Debug\ThoughtWorks.Selenium.Core.xml
+C:\Users\schultzm\Documents\Visual Studio 2010\Projects\SeleniumRegression\SeleniumRegression\bin\Debug\ThoughtWorks.Selenium.IntegrationTests.dll
+C:\Users\schultzm\Documents\Visual Studio 2010\Projects\SeleniumRegression\SeleniumRegression\bin\Debug\ThoughtWorks.Selenium.UnitTests.dll
+C:\Users\schultzm\Documents\Visual Studio 2010\Projects\SeleniumRegression\SeleniumRegression\bin\Debug\Selenium.WebDriverBackedSelenium.pdb
+C:\Users\schultzm\Documents\Visual Studio 2010\Projects\SeleniumRegression\SeleniumRegression\bin\Debug\WebDriver.pdb
+C:\Documents and Settings\schultzm\My Documents\Visual Studio 2010\Projects\SeleniumRegression\SeleniumRegression\bin\Debug\SeleniumRegression.exe.config
+C:\Documents and Settings\schultzm\My Documents\Visual Studio 2010\Projects\SeleniumRegression\SeleniumRegression\obj\x86\Debug\SeleniumRegression.exe
+C:\Documents and Settings\schultzm\My Documents\Visual Studio 2010\Projects\SeleniumRegression\SeleniumRegression\obj\x86\Debug\SeleniumRegression.pdb
+C:\Documents and Settings\schultzm\My Documents\Visual Studio 2010\Projects\SeleniumRegression\SeleniumRegression\bin\Debug\SeleniumRegression.exe
+C:\Documents and Settings\schultzm\My Documents\Visual Studio 2010\Projects\SeleniumRegression\SeleniumRegression\bin\Debug\SeleniumRegression.pdb
+C:\Documents and Settings\schultzm\My Documents\Visual Studio 2010\Projects\SeleniumRegression\SeleniumRegression\bin\Debug\Selenium.WebDriverBackedSelenium.pdb
+C:\Documents and Settings\schultzm\My Documents\Visual Studio 2010\Projects\SeleniumRegression\SeleniumRegression\bin\Debug\Selenium.WebDriverBackedSelenium.xml
+C:\Documents and Settings\schultzm\My Documents\Visual Studio 2010\Projects\SeleniumRegression\SeleniumRegression\bin\Debug\ThoughtWorks.Selenium.Core.pdb
+C:\Documents and Settings\schultzm\My Documents\Visual Studio 2010\Projects\SeleniumRegression\SeleniumRegression\bin\Debug\ThoughtWorks.Selenium.Core.xml
+C:\Documents and Settings\schultzm\My Documents\Visual Studio 2010\Projects\SeleniumRegression\SeleniumRegression\bin\Debug\WebDriver.pdb
+C:\Documents and Settings\schultzm\My Documents\Visual Studio 2010\Projects\SeleniumRegression\SeleniumRegression\bin\Debug\WebDriver.xml
+C:\Documents and Settings\schultzm\My Documents\Visual Studio 2010\Projects\SeleniumRegression\SeleniumRegression\bin\Debug\WebDriver.Support.pdb
+C:\Documents and Settings\schultzm\My Documents\Visual Studio 2010\Projects\SeleniumRegression\SeleniumRegression\bin\Debug\WebDriver.Support.xml
+C:\Documents and Settings\schultzm\My Documents\Visual Studio 2010\Projects\SeleniumRegression\SeleniumRegression\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\schultzm\My Documents\Visual Studio 2010\Projects\SeleniumRegression\SeleniumRegression\obj\x86\Debug\SeleniumRegression.RegressionGUI.resources
+C:\Documents and Settings\schultzm\My Documents\Visual Studio 2010\Projects\SeleniumRegression\SeleniumRegression\obj\x86\Debug\SeleniumRegression.Properties.Resources.resources
+C:\Documents and Settings\schultzm\My Documents\Visual Studio 2010\Projects\SeleniumRegression\SeleniumRegression\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\schultzm\My Documents\Visual Studio 2010\Projects\SeleniumRegression\SeleniumRegression\obj\x86\Debug\GenerateResource.write.1.tlog
+H:\SeleniumRegression\SeleniumRegression\bin\Debug\SeleniumRegression.exe.config
+H:\SeleniumRegression\SeleniumRegression\obj\x86\Debug\SeleniumRegression.exe
+H:\SeleniumRegression\SeleniumRegression\obj\x86\Debug\SeleniumRegression.pdb
+C:\Users\schultzm\Documents\SeleniumRegression\SeleniumRegression\bin\Debug\SeleniumRegression.exe.config
+C:\Users\schultzm\Documents\SeleniumRegression\SeleniumRegression\obj\x86\Debug\SeleniumRegression.exe
+C:\Users\schultzm\Documents\SeleniumRegression\SeleniumRegression\obj\x86\Debug\SeleniumRegression.pdb
